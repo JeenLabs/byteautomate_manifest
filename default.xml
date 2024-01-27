@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="JeenLabs"
+           fetch="https://github.com/JeenLabs/"
+           revision="v1.0"
+           sync-j="4"
+           sync-c="true" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- BEGIN projects -->
+  <project path="generator/env" name="ByteAutomate_generator_env" remote="JeenLabs" ></project>
+  <!-- END projects -->
+
+</manifest>
